@@ -1,0 +1,32 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.pozadina{
+    width: 100%;
+    height: 100%;
+    background-image: url("./images/bg.jpg");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position-x: 0px;
+}
+
+.superMario{
+
+    position: fixed;
+    left: 45%;
+    top: 62%;
+    width: 10%;
+    height: 20%;
+}
+
+.stop{
+    z-index: 1;
+}
+.run{
+    z-index:-1;
+}
