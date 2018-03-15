@@ -20,7 +20,7 @@ const ctrlModule = ((dataModule, uiModule) => {
                 let card = uiModule.createCard(showToInsert);
                 uiModule.$firstPageCardInputPlace.append(card);
                 counter++
-                if (counter === 5) {
+                if (counter === 50) {
                     clearInterval(xyz);
                 }
             }
