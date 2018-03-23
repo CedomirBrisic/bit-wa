@@ -1,0 +1,43 @@
+h1,p,h2,h3 {
+   color: white;
+  
+   margin-bottom: 2%;
+}
+.contactImg{
+    width: 200px;
+    float: left;
+}
+.all{
+    text-align: left;
+}
+.contactInfo{
+   width:900px;
+   
+    
+}
+.addressImg{
+  width: 300px;
+  height: 200px;  
+}
+.contactAddress{
+    width:900px;
+    float: left;
+    display: block;
+   
+
+    
+}
+.mainTitle{
+    text-align: center;
+    margin-bottom: 20%;
+    margin-left: 25%;
+}
+.addressImg{
+    position: relative;
+    left:50%;
+    bottom: 200px;
+   
+}
+.company{
+   clear: left;
+}

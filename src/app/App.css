@@ -1,0 +1,96 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+#navbarNavAltMarkup{
+ margin-left: 70%;
+}
+*{
+  background: #222;
+}
+
+.slova{
+  color: #007bff!important;
+  margin-left: 40%;
+  margin-top: 1%;
+}
+.card{
+  border-radius: 10px;
+  color: whitesmoke;
+  margin-top: 30px;
+  margin-left: 22%;
+}
+.footer{
+  position: relative;
+  width: 100%;
+  bottom: 0%;
+  margin-top: 10%;
+}
+
+hr{
+  margin-top: 10%;
+  border-color: white;
+}
+.about{
+  text-align: center;
+}
+button {
+  color: white;
+  margin: 1% 1%;
+}
+.btnNew{
+  margin-left: 31%;
+}
+textarea{
+  color: white;
+}
+.createPostBtn{
+ background:  #007bff;
+ margin: 30px 0px ;
+border-radius: 100px;
+}
+input{
+  color: white;
+}
